@@ -5,7 +5,8 @@
     "theme": {
       "name": "purity",
       "title": "PurityM",
-      "styling": {}
+      "styling": {},
+      "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.12.3",
@@ -39,7 +40,7 @@
             },
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
-              "font-size": "1.4em",
+              "font-size": "1.2em",
               "color": "#000000"
             },
             ".navbar, .dropdown-menu": {
@@ -59,7 +60,7 @@
             "sticky": true,
             "transparent": true,
             "bgColor": "#ffffff",
-            "fontSize": "1.4",
+            "fontSize": "1.2",
             "fontName": {},
             "fontColor": "#000000"
           },
@@ -86,7 +87,7 @@
           "_inherit": "header1",
           "_params": {
             "showTitle": true,
-            "showText": false,
+            "showText": true,
             "showButtons": true,
             "showArrow": true,
             "contentAlign": "left",
@@ -104,14 +105,25 @@
             "overlayOpacity": 0.5
           },
           "title": "Rahul Jain",
-          "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Photo Gallery</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"index.html#form1-4\" data-toolbar=\"-mbrBtnMove\">Contact form</a>",
+          "text": "12th pass-out of CMS, Lucknow.<br>Born on 02nd Sept, 2002.<br>Beginner Programmer, VFX Artist, 3d Animator. Car guy.<br>Currently at New Ratna Kendra, Bhootnath.<br>Pursuing BBA.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Gallery</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"index.html#form1-4\" data-toolbar=\"-mbrBtnMove\">Contact Me</a>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
           "_name": "header4",
-          "_anchor": "header4-1"
+          "_anchor": "header4-1",
+          "_styles": {
+            ".btn": {
+              "font-size": "16px"
+            },
+            "H1": {
+              "font-size": "60px"
+            },
+            "P": {
+              "font-size": "14px"
+            }
+          }
         },
         {
           "_params": {
@@ -139,7 +151,7 @@
           "_anchor": "image1-e",
           "_styles": {
             "DIV": {
-              "font-size": "24px",
+              "font-size": "16px",
               "text-align": "center"
             }
           }
@@ -150,12 +162,12 @@
             "showText": false,
             "showButtons": false,
             "inverse": false,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-10.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#FFF8E0",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -177,7 +189,7 @@
           "_styles": {
             "H2": {
               "text-align": "left",
-              "font-size": "60px"
+              "font-size": "24px"
             }
           }
         },
@@ -189,7 +201,7 @@
             "paddingTop": "0",
             "paddingBottom": "0",
             "showBullets": true,
-            "bgColor": "#ffffff",
+            "bgColor": "#f2f2f2",
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/photo-6.jpg",
@@ -206,7 +218,7 @@
                 "image": "@PROJECT_PATH@/assets/images/photo-9.jpg",
                 "active": false,
                 "showButtons": false,
-                "showText": true,
+                "showText": false,
                 "showTitle": true,
                 "title": "Slide 2",
                 "contentAlign": "left",
@@ -232,7 +244,12 @@
             "Theme"
           ],
           "_name": "slider",
-          "_anchor": "slider-d"
+          "_anchor": "slider-d",
+          "_styles": {
+            "H2": {
+              "font-size": "36px"
+            }
+          }
         },
         {
           "_inherit": "msg-box5",
@@ -245,10 +262,10 @@
             "imageSize": 50,
             "paddingTop": "2",
             "paddingBottom": "2",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-6.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -291,20 +308,26 @@
           "_anchor": "msg-box4-6",
           "_styles": {
             ".mbr-section-title": {
-              "font-size": "46px"
+              "font-size": "30px"
+            },
+            ".lead P": {
+              "font-size": "16px"
+            },
+            ".btn": {
+              "font-size": "16px"
             }
           }
         },
         {
           "_params": {
             "showTitle": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
             "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgColor": "#fbf2be",
             "overlay": false,
             "overlayColor": "#222",
             "overlayOpacity": 0.5
@@ -343,14 +366,19 @@
             "Theme"
           ],
           "_name": "form1",
-          "_anchor": "form1-4"
+          "_anchor": "form1-4",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "30px"
+            }
+          }
         },
         {
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#37383e",

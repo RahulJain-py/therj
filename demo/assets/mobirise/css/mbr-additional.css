@@ -3,7 +3,7 @@
 }
 #dropdown-menu-0 .nav .link,
 #dropdown-menu-0 .dropdown-item {
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: #000000;
 }
 #dropdown-menu-0 .navbar,
@@ -18,14 +18,35 @@
 #dropdown-menu-0 .navbar-toggler {
   color: #000000;
 }
+#header4-1 .btn {
+  font-size: 16px;
+}
+#header4-1 H1 {
+  font-size: 60px;
+}
+#header4-1 P {
+  font-size: 14px;
+}
 #image1-e DIV {
-  font-size: 24px;
+  font-size: 16px;
   text-align: center;
 }
 #msg-box1-g H2 {
   text-align: left;
-  font-size: 60px;
+  font-size: 24px;
+}
+#slider-d H2 {
+  font-size: 36px;
 }
 #msg-box4-6 .mbr-section-title {
-  font-size: 46px;
+  font-size: 30px;
+}
+#msg-box4-6 .lead P {
+  font-size: 16px;
+}
+#msg-box4-6 .btn {
+  font-size: 16px;
+}
+#form1-4 .mbr-section-title {
+  font-size: 30px;
 }
