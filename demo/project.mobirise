@@ -25,7 +25,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "Rahul Jain - Home",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -105,7 +105,7 @@
           },
           "title": "Rahul Jain",
           "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Photo Gallery</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Contact me</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Photo Gallery</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"index.html#form1-4\" data-toolbar=\"-mbrBtnMove\">Contact form</a>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -139,7 +139,7 @@
           "_anchor": "image1-e",
           "_styles": {
             "DIV": {
-              "font-size": "48px",
+              "font-size": "24px",
               "text-align": "center"
             }
           }
@@ -186,14 +186,14 @@
           "_params": {
             "autoplay": true,
             "fullScreen": false,
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "showBullets": true,
             "bgColor": "#ffffff",
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/photo-6.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
@@ -204,7 +204,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/photo-9.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
